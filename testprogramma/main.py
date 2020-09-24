@@ -10,7 +10,7 @@ async def main():
                   name='bureau_licht',
                   group_address_switch='1/1/1')
     await light.set_on()
-    await asyncio.sleep(10)
+    await asyncio.sleep(2)
     await light.set_off()
     await asyncio.sleep(2)
     await xknx.stop()
