@@ -1,0 +1,13 @@
+general:
+  own_address: '15.15.249'
+  rate_limit: 6
+
+connection:
+  tunneling:
+    gateway_ip: '192.168.0.3'
+    gateway_port: '3671'
+
+groups:
+  light:
+    bureau.Light_1:
+      {group_address_switch: '1/1/1'}
